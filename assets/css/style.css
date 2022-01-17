@@ -312,7 +312,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-scroll i {
   font-size: 48px;
+  padding-top: 20px;
+  
 }
+
+#hero .btn-scroll1 i {
+  font-size: 50px;
+  /* background-color: red; */
+  margin-left: 15px;
+  align-items: center;  
+  padding-right: 9px ;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
 #hero .btn-scroll:hover {
   color: #ffb727;
 }
