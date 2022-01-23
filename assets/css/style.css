@@ -661,6 +661,16 @@ section {
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
+.row1{ display:grid;
+grid-template-columns:23% 23% 23% 23%;
+grid-column-gap: 2%;
+margin:auto; 
+padding:2%;
+justify-content: center;
+grid-auto-rows: minmax(10em,auto);
+}
+
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -670,6 +680,8 @@ section {
   transition: all 0.3s ease-in-out;
   text-align: center;
   border: 1px solid #fff;
+  height: 95%;
+  
 }
 .services .icon {
   margin: 0 auto 20px auto;
