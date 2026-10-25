@@ -43,6 +43,7 @@
       <ul>
         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
         <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
         <li><a class="nav-link scrollto" href="#services">Skills</a></li>
         <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
@@ -136,6 +137,25 @@
 
       </div>
     </section><!-- End About Me Section -->
+
+    <!-- ======= My Blogs Section ======= -->
+    <section id="blogs" class="blog">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Blogs</span>
+          <h2>My Blogs</h2>
+        </div>
+
+        <!-- The 3 most recent posts from blogs/posts.js -->
+        <div class="row gy-4" id="recent-blog-posts"></div>
+
+        <div class="text-center mt-4">
+          <a href="blogs/index.html" class="read-more">View all blogs <i class="bi bi-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </section><!-- End My Blogs Section -->
 
     <!-- ======= My Resume Section ======= -->
     <section id="resume" class="resume">
@@ -592,6 +612,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="blogs/posts.js"></script>
+  <script>renderBlogPosts("recent-blog-posts", "blogs/", 3);</script>
 
 </body>
 
